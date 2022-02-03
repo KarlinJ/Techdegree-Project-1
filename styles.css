@@ -70,7 +70,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 5px solid rgb(162, 212, 235);
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -98,7 +98,7 @@ header .profile-image:hover {
   border-radius: 20px;
   transition: all .5s;
 }
-.card :hover {
+.flex :hover {
   border-color: #11a4e9;
 }
 
@@ -151,9 +151,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
+
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
